@@ -46,4 +46,6 @@ def handle_callback(call):
         markup.add(button)
         bot.send_message(call.message.chat.id, "Obs: Você deverá passar pelos links do encurtador até chegar no final onde estarão os dados de login e senha da sua conta.", reply_markup=markup)
 
-bot.polling()
+if __name__ == "__main__":
+    bot.polling()
+
