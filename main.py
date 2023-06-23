@@ -2,7 +2,7 @@ import telebot
 from telebot import types
 from games import games_all
 
-bot_token = os.getenv("TELEGRAM_TOKEN")
+bot_token = "5872441280:AAGeSuGexyNIWniOhsag-bBLdXQmZIlnWnQ"
 bot = telebot.TeleBot(bot_token)
 
 jogos = games_all
