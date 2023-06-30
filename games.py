@@ -5,7 +5,7 @@ games_all = {
         "link do encurtador": "https://4br.me/thewitcher3aFD355434"
     },
     "RISE OF THE TOMB RAIDER": {
-        "link da imagem": "https://i.ytimg.com/vi/4B9alWaq95Y/maxresdefault.jpg",
+        "link da imagem": "https://i.ytimg.com/vi/4B9alWaq95Y/maxresdefault0.jpg",
         "descrição": "Em 'Rise of the Tomb Raider', Lara se torna mais do que uma sobrevivente, embarcando em sua primeira expedição de exploração de tumbas. Características: • A jornada de Lara - Lara descobre um mistério antigo que a coloca na mira de uma organização inescrupulosa conhecida como Trindade.",
         "link do encurtador": "https://4br.me/RISEOFTHETOMB342"
     },
