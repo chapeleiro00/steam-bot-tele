@@ -67,7 +67,10 @@ Utilizamos um encurtador de link para manter o bot ativo e garantir o acesso às
 Para mais informações sobre o bot e como passar pelo encurtador, clique aqui: /help.
 
 No momento tenho mais de {numero_de_jogos} jogos disponives e futuramente suportarei mais!!
-Estou aqui para tornar sua jornada gamer mais acessível e emocionante. Aproveite ao máximo essa oportunidade!"""))
+Estou aqui para tornar sua jornada gamer mais acessível e emocionante. Aproveite ao máximo essa oportunidade!
+
+
+obs: se houver erro de login use VPN!"""))
 
         markup = telebot.types.InlineKeyboardMarkup()
         markup.add(telebot.types.InlineKeyboardButton("Ver Jogos Disponíveis", callback_data="ver_jogos"))
@@ -121,7 +124,9 @@ Utilizamos um encurtador de link para manter o bot ativo e garantir o acesso às
 Para mais informações sobre o bot e como passar pelo encurtador, clique aqui: /help.
 
 No momento tenho mais de {numero_de_jogos} jogos disponives e futuramente suportarei mais!!
-Estou aqui para tornar sua jornada gamer mais acessível e emocionante. Aproveite ao máximo essa oportunidade!"""))
+Estou aqui para tornar sua jornada gamer mais acessível e emocionante. Aproveite ao máximo essa oportunidade!
+
+obs: se houver erro de login use VPN!"""))
         markup = telebot.types.InlineKeyboardMarkup()
         markup.add(telebot.types.InlineKeyboardButton("Ver Jogos Disponíveis", callback_data="ver_jogos"))
         bot.send_message(chat_id, "Selecione uma opção:", reply_markup=markup)
